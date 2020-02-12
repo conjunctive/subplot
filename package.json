@@ -1,0 +1,23 @@
+{
+  "name": "subplot",
+  "description": "Primitives for working with GraphQL subscriptions",
+  "version": "0.1.0",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "browserify src/index.js -s subplot -p tinyify -o dist/subplot.js",
+    "doc": "npx jsdoc@3.6.3 -p -d docs ./src/index.js ./README.md",
+    "test": "tape ./test/index.js"
+  },
+  "devDependencies": {
+    "browserify": "^16.5.0",
+    "tinyify": "^2.5.2",
+    "tape": "^4.13.0"
+  },
+  "license": "MIT",
+  "author": "Conjunctive",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/conjunctive/subplot.git"
+  },
+  "homepage": "https://github.com/conjunctive/subplot"
+}
