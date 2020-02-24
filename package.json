@@ -1,7 +1,7 @@
 {
   "name": "subplot",
   "description": "Primitives for working with GraphQL subscriptions",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "src/index.js",
   "browser": "dist/subplot.js",
   "scripts": {
@@ -20,5 +20,10 @@
     "type": "git",
     "url": "git://github.com/conjunctive/subplot.git"
   },
-  "homepage": "https://github.com/conjunctive/subplot"
+  "homepage": "https://github.com/conjunctive/subplot",
+  "keywords": [
+    "GraphQL",
+    "Subscription",
+    "WebSocket"
+  ]
 }
