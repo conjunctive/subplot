@@ -3,6 +3,7 @@
   "description": "Primitives for working with GraphQL subscriptions",
   "version": "0.1.0",
   "main": "src/index.js",
+  "browser": "dist/subplot.js",
   "scripts": {
     "build": "browserify src/index.js -s subplot -p tinyify -o dist/subplot.js",
     "doc": "npx jsdoc@3.6.3 -p -d docs ./src/index.js ./README.md",
